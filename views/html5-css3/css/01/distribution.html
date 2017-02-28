@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒模型</title>
+    <style>
+        .content-box {
+            width:10em;
+            height:10em;
+            background-color:#66ff66;
+            padding:5em;
+            margin: 2em;
+            border: .5em solid #ff0000;
+            box-sizing: content-box;
+        }
+
+        .border-box {
+            width:10em;
+            height:10em;
+            background-color:#66ff66;
+            padding:5em;
+            margin: 2em;
+            border: .5em solid #ff0000;
+            box-sizing: border-box;
+        }
+
+    </style>
+</head>
+<body>
+<div class="content-box"></div>
+<div class="border-box"></div>
+</body>
+</html>
