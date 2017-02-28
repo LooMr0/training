@@ -1,0 +1,60 @@
+<! DOCPYTE HTML>
+<html>
+<head>
+    <style>
+        #canvas{background-color:#fff;}
+        body{background-color:#666;}
+        #can{height:500px;
+            width:320px;
+            margin:0 auto;}
+        .imgs{display:none;}
+    </style>
+</head>
+<script type="text/javascript">
+    var a=false;
+    var y=-(1126-500);
+    var fingerx=125; fingery=430;
+    var pen;
+    window.onload=function(){
+        var canvas=document.getElementById("canvas");
+        pen=canvas.getContext("2d");
+
+        canvas.onmousedown=function(e){
+            a=true;}
+        canvas.onmouseup=function(e){
+            a=false;}
+        canvas.onmousemove=function(e){
+            var canvasbox=this.getBoundingClientRect();
+            if(a){
+                fingerx=-35+e.clientX-canvasbox.left;
+                fingery=-35+e.clientY-canvasbox.top;}
+        }
+        setInterval("moveBackground()",40);
+
+    }
+    function moveBackground(){
+        var bg=document.getElementById("bg");
+        pen.drawImage(bg,0,y);
+        pen.drawImage(bg,0,y-1126);
+        y=y+5;
+        if (y>=500){y=-(1126-500);}
+        var player=document.getElementById("player");
+        pen.drawImage(player,0,0,113,106,fingerx,fingery,70,70);
+
+    }
+
+</script>
+<body>
+<div id="can">
+    <canvas id="canvas" width="320" height="500">浏览器不支持画布</canvas>
+</div>
+<div class="imgs">
+    <img src="http://reso.bixiuko.com/shgu/proj/p3/bg.jpg " id="bg"/>
+    <img src="http://reso.bixiuko.com/shgu/proj/p3/food1.png " id="food1"/>
+    <img src="http://reso.bixiuko.com/shgu/proj/p3/food2.png " id="food2"/>
+    <img src="http://reso.bixiuko.com/shgu/proj/p3/heart.png" id="heart"/>
+    <img src="http://reso.bixiuko.com/shgu/proj/p3/player.png " id="player"/>
+    <img src="http://reso.bixiuko.com/shgu/proj/p3/scorebg.png" id="score"/>
+</div>
+</body>
+</html>
