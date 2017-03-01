@@ -199,10 +199,11 @@ margin-top: 30px;
     line-height: 2.5em;
     height:100%;
     width: 65%;
-
+    margin-top: 1em;
 }
 .box_1 p{font-size: 0.8em;
-    line-height: 10px;}
+    line-height: 10px;
+}
 .box_2 {
     height:100%;
     width: 30%;
