@@ -16,7 +16,7 @@ div {
 .logo{
 
     height:2em;
-    width:10.5em;
+    width:7.8em;
     margin:1em;
 }
 .logo a{
@@ -37,30 +37,33 @@ div a{
     text-decoration: none;
 }
 .INP1{width:200%;height:100%;background:gainsboro ;color:#fff;border:#fff 1px solid;
-    border-radius: 25%;}
+    border-radius: 40px;
+position: relative;
+    top:-0.5em;
+}
 .B{
     float: right;
     height:2em;
-    width:6em;
+    width:5em;
     margin:1em;
     align-content:center;
 }
-.bottonA{padding:0.8em;background-color:#fff;color:red;font-weight:bold;
+.bottonA{padding:0.5em 1em;background-color:#fff;color:red;font-weight:bold;
     border-radius:12%;
     border:2px solid red;
-    width: 20em;
+    width:10px;
 }
-.bottonB{padding:0.8em;background-color:red;color:#fff;font-weight:bold;
+.bottonB{padding:0.5em 0.75em;background-color:red;color:#fff;font-weight:bold;
     border-radius:12%;
     border:2px solid red;
 }
 
 .screen{
-    height:600px;
-    width:66%;
-
+    height:620px;
+    width:75%;
+margin-top: 30px;
     position: relative;
-    left:16.4%;
+    left:12.5%;
 }
 .screenA{
     height:47%;
@@ -83,59 +86,67 @@ div a{
     margin-top: 1.5em;
 }
 .A-2A{
-    margin: .5em;
-    height: 3.5em;
-    width:3.5em;
+    height: 4.5em;
+    width:4.5em;
     background-image: url("/training/public/images/20120316041115481.jpg");
     background-size: cover ;
+    border-radius: 10px;
 }
 .A-2B{
-    margin: .5em;
-    height: 3.5em;
-    width:3.5em;
+    margin-left:3.125%;
+    height: 4.5em;
+    width:4.5em;
     background-image: url("/training/public/images/B.jpg");
     background-size: cover ;
+    border-radius: 10px;
 }
 .A-2C{
-    margin: .5em;
-    height: 3.5em;
-    width:3.5em;
+    margin-left: .5em;
+    height:4.5em;
+    width:4.5em;
     background-image: url("/training/public/images/C.jpg");
     background-size: cover ;
+    border-radius: 10px;
 }
 .A-2D{
-    margin: .5em;
-    height: 3.5em;
-    width:3.5em;
+    margin-left: .5em;
+    height:4.5em;
+    width:4.5em;
     background-image: url("/training/public/images/B.jpg");
     background-size: cover ;
+    border-radius: 10px;
 }
 .A-2E{
-    margin: .5em;
-    height: 3.5em;
-    width:3.5em;
+    margin-left: .5em;
+    height:4.5em;
+    width:4.5em;
     background-image: url("/training/public/images/E.png");
     background-size: cover ;
-}.A-2F{
-     margin: .5em;
-     height: 3.5em;
-     width:3.5em;
+    border-radius: 10px;
+}
+.A-2F{
+     margin-left: .5em;
+     height:4.5em;
+     width:4.5em;
      background-image: url("/training/public/images/F.jpg");
      background-size: cover ;
+    border-radius: 10px;
  }
 .A-2G{
-    margin: .5em;
-    height: 3.5em;
-    width:3.5em;
+    margin-left: .5em;
+    height: 4.5em;
+    width:4.5em;
     background-image: url("/training/public/images/G.jpg");
     background-size: cover ;
+    border-radius: 10px;
 }
 .A-2H{
-    margin: .5em;
-    height: 3.5em;
-    width:3.5em;
+    float: right;
+    height: 4.5em;
+    width:4.5em;
     background-image: url("/training/public/images/H.jpg");
     background-size: cover ;
+    border-radius: 10px;
 }
 
 
@@ -151,7 +162,6 @@ div a{
 .B-1{  width:100%;
     height:15%;
     background-size: cover ;
-    margin-top:0.2em;
     background-image: url("/training/public/images/1.png");
 }
 .B-3{  width:100%;
@@ -207,12 +217,13 @@ div a{
 
 }
 .box_1b{
-    height: 6em;
-    width: 7em;
+    height: 9em;
+    width: 11em;
     background-image: url("/training/public/images/4.jpeg");
     float: right;
     background-size: cover;
     margin-top: -22%;
+    border-radius: 10px;
 }
 
 .people1{
