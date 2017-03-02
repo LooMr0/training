@@ -1,0 +1,43 @@
+
+.poker {
+    height: 20em;
+    width: 13em;
+
+    border: 1px dashed blue;
+    border-radius: 10px;
+}
+
+div {
+    height: 20em;
+    width: 13em;
+
+    border: 1px dashed blue;
+    border-radius: 10px;
+}
+
+body {
+    margin-left: 30em;
+}
+
+div:nth-child(1):hover {
+    background-image: url("http://p2.so.qhmsg.com/t0161e411729ee3b8a7.png");
+    background-size: cover;
+}
+
+.poker1 {
+    height: 40em;
+    width: 28em;
+    background-color: red;
+    border-radius: 10px;
+
+}
+
+.poker1:hover {
+    background-image: url("POKER2.jpg");
+    background-size: cover;
+}
+
+div:nth-child(3):hover {
+    background-image: url("http://p2.so.qhmsg.com/t0161e411729ee3b8a7.png");
+    background-size: cover;
+}
