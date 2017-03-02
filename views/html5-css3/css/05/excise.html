@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+       div{
+            height:4em;
+            width:20em;
+            border:1px solid  red;
+        }
+.B{
+    position: relative;
+    top:-2em;
+    left:10em;
+    z-index: 4;
+    background-color: #66ff66;
+}
+     .one{
+         background-color: #66ff66;
+         height:20em;
+         width:20em;
+         position: absolute;
+         z-index: 3;
+     }
+        .two{
+            background-color: red;
+            height:15em;
+            width:15em;
+            position:absolute;
+            top:3em;
+            z-index: 6;
+        }
+        .three{
+            background-color:deepskyblue;
+            height:12em;
+            width:12em;
+            position: absolute;
+            top:1em;
+            left:9em;z-index: 5;
+        }
+        .father{
+            position: relative;
+            z-index: 1;
+        }
+       .one1{
+           background-color: #66ff66;
+           height:20em;
+           width:20em;
+           position: relative;
+           top:20em;
+           z-index: 3;
+       }
+       .two2{
+           background-color: red;
+           height:15em;
+           width:15em;
+           position: relative;
+           top:-2em;
+           z-index: 6;
+       }
+       .three3{
+           background-color:deepskyblue;
+           height:12em;
+           width:12em;
+           position: relative;
+           top:-11em;
+           left:9em;z-index: 5;
+       }
+
+    </style>
+</head>
+<body>
+
+<div>这是一段话，纽约剧团要重拍《天鹅湖》，因前领舞Beth离去，总监Thomas决定海选新领舞，且要求领舞要分饰黑天鹅与白天鹅</div>
+<div class="B">纽约剧团要重拍《天鹅湖》，因前领舞Beth离去，总监Thomas决定海选新领舞，且要求领舞要分饰黑天鹅与白天鹅</div>
+<div>纽约剧团要重拍《天鹅湖》，因前领舞Beth离去，总监Thomas决定海选新领舞，且要求领舞要分饰黑天鹅与白天鹅</div>
+<br/>
+<br/>
+<div class="father">
+    <header class="one"></header>
+    <header class="two"></header>
+    <header class="three"></header>
+</div>
+
+<div class="father2">
+    <header class="one1"></header>
+    <header class="two2"></header>
+    <header class="three3"></header>
+</div>
+</body>
+</html>

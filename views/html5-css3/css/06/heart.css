@@ -1,0 +1,148 @@
+.box {
+    height: 34.3em;
+    width: 39.31em;
+    background-color: red;
+    margin-left: 25%;
+    border-radius: 25%;
+}
+
+.box_1 div {
+    height: 5em;
+    width: 5em;
+    margin: .3em;
+    float: left;
+    border-radius: 40px;
+    background-size: cover;
+}
+
+.T1 {
+    background-image: url("/training/public/images/20120316041115481.jpg");
+}
+
+.T2 {
+    background-image: url("/training/public/images/B.jpg");
+}
+
+.T3 {
+    background-image: url("/training/public/images/C.jpg");
+}
+
+.T4 {
+    background-image: url("/training/public/images/D.jpg");
+
+}
+
+.T5 {
+    background-image: url("/training/public/images/C.jpg");
+
+}
+
+.T6 {
+    background-image: url("/training/public/images/F.jpg");
+
+}
+
+.T7 {
+    background-image: url("/training/public/images/G.jpg");
+
+}
+
+.T8 {
+    background-image: url("/training/public/images/H.jpg");
+
+}
+
+.T9 {
+    background-image: url("/training/public/images/C.jpg");
+
+}
+
+.T10 {
+    background-image: url("/training/public/images/D.jpg");
+
+}
+
+.T11 {
+    background-image: url("/training/public/images/G.jpg");
+
+}
+
+.T12 {
+    background-image: url("/training/public/images/H.jpg");
+
+}
+
+.T13 {
+    background-image: url("/training/public/images/20120316041115481.jpg");
+
+}
+
+.T14 {
+    background-image: url("/training/public/images/B.jpg");
+
+}
+
+.T15 {
+    background-image: url("/training/public/images/C.jpg");
+
+}
+
+.T16 {
+    background-image: url("/training/public/images/D.jpg");
+
+}
+
+.T17 {
+    background-image: url("/training/public/images/E.png");
+
+}
+
+.T18 {
+    background-image: url("/training/public/images/F.jpg");
+
+}
+
+.T19 {
+    background-image: url("/training/public/images/G.jpg");
+
+}
+
+.T20 {
+    background-image: url("/training/public/images/H.jpg");
+
+}
+
+.T21 {
+    background-image: url("/training/public/images/C.jpg");
+
+}
+
+.T22 {
+    background-image: url("/training/public/images/D.jpg");
+
+}
+
+.T23 {
+    background-image: url("/training/public/images/H.jpg");
+
+}
+
+.T24 {
+    background-image: url("/training/public/images/C.jpg");
+
+}
+
+.T25 {
+    background-image: url("/training/public/images/D.jpg");
+
+}
+
+.T26 {
+    background-image: url("/training/public/images/H.jpg");
+
+}
+
+.T27 {
+    background-image: url("/training/public/images/C.jpg");
+
+}
