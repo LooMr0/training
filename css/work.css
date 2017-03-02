@@ -1,224 +1,269 @@
-body{
-    padding:0;
+body {
+    padding: 0;
     margin: 10px;
 
 }
 
-header{
-    height:4em;
-    width:100%;
-    border-bottom:solid 1px grey;
+header {
+    height: 4em;
+    width: 100%;
+    border-bottom: solid 1px grey;
+
 }
+
 div {
-    float:left;
-
+    float: left;
 
 }
-.logo{
 
-    height:2em;
-    width:7.8em;
-    margin:1em;
+.logo {
+
+    height: 2em;
+    width: 7.8em;
+    margin: 1em;
 }
-.logo a{
-    color:red;
-    font-size:1.5em;
+
+.logo a {
+    color: red;
+    font-size: 1.5em;
     line-height: 10px;
     text-decoration: none;
 
+}
 
+.A {
+    height: 2em;
+    width: 4em;
+    margin: 1em;
+    align-content: center;
 }
-.A{
-    height:2em;
-    width:4em;
-    margin:1em;
-    align-content:center;
-}
-div a{
+
+div a {
     text-decoration: none;
 }
-.INP1{width:200%;height:100%;background:gainsboro ;color:#fff;border:#fff 1px solid;
+
+.INP1 {
+    width: 200%;
+    height: 100%;
+    background: gainsboro;
+    color: #fff;
+    border: #fff 1px solid;
     border-radius: 40px;
-position: relative;
-    top:-0.5em;
-}
-.B{
-    float: right;
-    height:2em;
-    width:5em;
-    margin:1em;
-    align-content:center;
-}
-.bottonA{padding:0.5em 1em;background-color:#fff;color:red;font-weight:bold;
-    border-radius:12%;
-    border:2px solid red;
-    width:10px;
-}
-.bottonB{padding:0.5em 0.75em;background-color:red;color:#fff;font-weight:bold;
-    border-radius:12%;
-    border:2px solid red;
+    position: relative;
+    top: -0.5em;
 }
 
-article{
-    height:620px;
-    width:75%;
-margin-top: 30px;
-    position: relative;
-    left:12.5%;
+.B {
+    float: right;
+    height: 2em;
+    width: 5em;
+    margin: 1em;
+    align-content: center;
 }
-.screenA{
-    height:47%;
+
+.bottonA {
+    padding: 0.5em 1em;
+    background-color: #fff;
+    color: red;
+    font-weight: bold;
+    border-radius: 12%;
+    border: 2px solid red;
+    width: 10px;
+}
+
+.bottonB {
+    padding: 0.5em 0.75em;
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 12%;
+    border: 2px solid red;
+}
+
+article {
+    height: 620px;
+    width: 75%;
+    margin-top: 30px;
+    position: relative;
+    left: 12.5%;
+}
+
+.screenA {
+    height: 47%;
     width: 66%;
 
 }
-.A-1{
-    height:100%;
+
+.A-1 {
+    height: 100%;
     width: 100%;
 }
-.A-1 img{
-    height:100%;
-    width:100%;
+
+.A-1 img {
+    height: 100%;
+    width: 100%;
 
 }
-.A-2{
 
-    height:auto;
+.A-2 {
+
+    height: auto;
     width: 100%;
     margin-top: 1.5em;
 }
-.A-2A{
+
+.A-2A {
     height: 4.5em;
-    width:4.5em;
+    width: 4.5em;
     background-image: url("/training/public/images/20120316041115481.jpg");
-    background-size: cover ;
+    background-size: cover;
     border-radius: 10px;
 }
-.A-2B{
-    margin-left:3.125%;
+
+.A-2B {
+    margin-left: 3.125%;
     height: 4.5em;
-    width:4.5em;
+    width: 4.5em;
     background-image: url("/training/public/images/B.jpg");
-    background-size: cover ;
+    background-size: cover;
     border-radius: 10px;
 }
-.A-2C{
+
+.A-2C {
     margin-left: .5em;
-    height:4.5em;
-    width:4.5em;
+    height: 4.5em;
+    width: 4.5em;
     background-image: url("/training/public/images/C.jpg");
-    background-size: cover ;
+    background-size: cover;
     border-radius: 10px;
 }
-.A-2D{
-    margin-left: .5em;
-    height:4.5em;
-    width:4.5em;
-    background-image: url("/training/public/images/B.jpg");
-    background-size: cover ;
-    border-radius: 10px;
-}
-.A-2E{
-    margin-left: .5em;
-    height:4.5em;
-    width:4.5em;
-    background-image: url("/training/public/images/E.png");
-    background-size: cover ;
-    border-radius: 10px;
-}
-.A-2F{
-     margin-left: .5em;
-     height:4.5em;
-     width:4.5em;
-     background-image: url("/training/public/images/F.jpg");
-     background-size: cover ;
-    border-radius: 10px;
- }
-.A-2G{
+
+.A-2D {
     margin-left: .5em;
     height: 4.5em;
-    width:4.5em;
-    background-image: url("/training/public/images/G.jpg");
-    background-size: cover ;
+    width: 4.5em;
+    background-image: url("/training/public/images/B.jpg");
+    background-size: cover;
     border-radius: 10px;
 }
-.A-2H{
+
+.A-2E {
+    margin-left: .5em;
+    height: 4.5em;
+    width: 4.5em;
+    background-image: url("/training/public/images/E.png");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.A-2F {
+    margin-left: .5em;
+    height: 4.5em;
+    width: 4.5em;
+    background-image: url("/training/public/images/F.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.A-2G {
+    margin-left: .5em;
+    height: 4.5em;
+    width: 4.5em;
+    background-image: url("/training/public/images/G.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.A-2H {
     float: right;
     height: 4.5em;
-    width:4.5em;
+    width: 4.5em;
     background-image: url("/training/public/images/H.jpg");
-    background-size: cover ;
+    background-size: cover;
     border-radius: 10px;
 }
 
-
-
-
-.screenB{
+.screenB {
     height: 63%;
     width: 30%;
 
     float: right;
 }
 
-.B-1{  width:100%;
-    height:15%;
-    background-size: cover ;
+.B-1 {
+    width: 100%;
+    height: 15%;
+    background-size: cover;
     background-image: url("/training/public/images/1.png");
 }
-.B-3{  width:100%;
-    height:15%;
-    background-size: cover ;
-    margin-top:0.2em;
+
+.B-3 {
+    width: 100%;
+    height: 15%;
+    background-size: cover;
+    margin-top: 0.2em;
     background-image: url("/training/public/images/42.png");
 }
-.B-4{  width:100%;
-    height:15%;
-    background-size: cover ;
-    margin-top:0.2em;
+
+.B-4 {
+    width: 100%;
+    height: 15%;
+    background-size: cover;
+    margin-top: 0.2em;
     background-image: url("/training/public/images/43.png");
 }
-.B-5{  width:100%;
-    height:15%;
-    background-size: cover ;
-    margin-top:0.2em;
+
+.B-5 {
+    width: 100%;
+    height: 15%;
+    background-size: cover;
+    margin-top: 0.2em;
     background-image: url("/training/public/images/44.png");
 }
-.B-2{
-    width:100%;
-    height:34%;
+
+.B-2 {
+    width: 100%;
+    height: 34%;
     background-image: url("/training/public/images/2.png");
-    background-size:cover ;
+    background-size: cover;
     margin-top: .2em;
 
 }
-.screenC{
+
+.screenC {
     height: 36%;
-    width:100%;
+    width: 100%;
 
 }
+
 .box_1 {
     line-height: 2.5em;
-    height:100%;
+    height: 100%;
     width: 65%;
     margin-top: 1em;
 }
-.box_1 p{font-size: 0.8em;
+
+.box_1 p {
+    font-size: 0.8em;
     line-height: 10px;
 }
+
 .box_2 {
-    height:100%;
+    height: 100%;
     width: 30%;
     float: right;
 }
-.box_1a{
-    height:2.5em;
+
+.box_1a {
+    height: 2.5em;
     width: 2.5em;
     background-image: url("/training/public/images/3.jpeg");
     background-size: cover;
-    border-radius:50%;
+    border-radius: 50%;
 
 }
-.box_1b{
+
+.box_1b {
     height: 9em;
     width: 11em;
     background-image: url("/training/public/images/4.jpeg");
@@ -228,18 +273,19 @@ margin-top: 30px;
     border-radius: 10px;
 }
 
-.people1{
+.people1 {
 
     height: 3em;
-    width:3em;
+    width: 3em;
     background-image: url("/training/public/images/G.jpg");
-    border-radius:50% ;
-    background-size: cover ;
+    border-radius: 50%;
+    background-size: cover;
     margin-top: 0.5em;
 }
-.people{
+
+.people {
     height: 0.75em;
     width: 2.5em;
-    border-radius:50%;
+    border-radius: 50%;
     float: none;
 }
