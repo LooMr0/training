@@ -10,6 +10,11 @@ body {
     width: 103.8em;
 
 }
+.list li a:hover{
+    color:red;
+    position: relative;
+    left:1em;
+}
 
 header {
     height: 59px;
@@ -155,7 +160,12 @@ aside {
     top: 5em;
     left: -2em;
 }
-
+.list ul li:hover{
+    border-bottom-color:red;
+}
+.list2 ul a:hover{
+    color:red;
+}
 .list2 {
     width: 23em;
     height: 20em;
