@@ -1,0 +1,241 @@
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 2em;
+    width: 100%;
+    background-color: black;
+
+}
+
+a {
+    color: #c8c8c8;
+    text-decoration: none;
+}
+
+header div {
+    height: 2em;
+    width:70em;
+    line-height: 2em;
+}
+
+.logo a {
+    color: #66ff66;
+}
+
+.logo {
+    position: absolute;
+    left: 2em;
+}
+
+.join {
+    position: absolute;
+    left: 9em;
+}
+
+.login {
+    width: 4em;
+    position: absolute;
+    right: 9em;
+}
+
+.sign {
+    width: 2em;
+    position: absolute;
+    right: 5em;
+}
+
+nav {
+    width:100%;
+    height: 4em;
+    background-color: #E8E8E8;
+    position: absolute;
+}
+
+.glog {
+    background-image: url("/training/public/images/lagou.jpg");
+    height: 4em;
+    width: 5em;
+    background-size: cover;
+
+}
+
+nav a {
+    float: left;
+    line-height: 4em;
+    position: relative;
+    left: 10em;
+}
+
+nav p {
+    float: left;
+    line-height: .5em;
+    font-size: 1.5em;
+    position: relative;
+    left: 7em;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+    position: relative;
+    left: 3em;
+    top: -1.25em;
+    margin-right: 2em;
+    font-size: 1.3em;
+    color: #585858;
+}
+
+.glog2 a:hover {
+    color: black;
+}
+
+aside {
+    height: 80em;
+    width: 14em;
+    position: absolute;
+    left: 10em;
+    top: 8em;
+    background-color: #E8E8E8;
+}
+
+article {
+    height: 30em;
+    width: 48em;
+    position: absolute;
+    left: 28em;
+    top: 8em;
+}
+
+article input {
+    border: 2px solid green;
+    height: 2.5em;
+    width: 70%;
+    position: relative;
+    top: -2px;
+}
+
+.bottonA {
+    padding: .6em;
+    padding-left: 4.2em;
+    padding-right: 4.2em;
+    background-color: #4ecb8c;
+    color: #fff;
+    font-weight: bold;
+    height: 2.5em;
+    width: 10%;
+    line-height: 2.5em;
+}
+
+.search ul li {
+    position: relative;
+    left: -2em;
+    font-size: 1em;
+    margin-right: 2em;
+    height: 2.5em;
+    line-height: 2.5em;
+}
+
+.search a {
+    color: #66ff66;
+}
+
+aside div {
+    position: relative;
+    left: -25%;
+    top: 2em;
+}
+
+aside a {
+    color: black;
+    font-size: .8em;
+}
+
+aside a {
+    font-size: 10px;
+    color: gray;
+}
+
+.nav1 {
+    display: flex;
+}
+#Lagou{
+    width: 80%;
+}
+#Lagou img {
+    position: relative;
+    top: -10px;
+    width: 100%;
+}
+
+
+#Lagou2{
+    display: flex;
+    width:100%;
+    position: relative;
+    top:-11em;
+}
+.picture {
+    width:100%;
+    flex-direction: column;
+}
+.picture  img{
+    width:100%;
+}
+.little_pic{
+    position: relative;
+    top:-11.2em;
+    float: right;
+    width: 15%;
+    height: 37%;
+}
+.picture2{
+    width:100%;
+    height:20%;
+    border:3px darkgray  solid;
+    margin-bottom: 1.3em;
+}
+.picture2 img{
+    width: 100%;
+    height: 100%;
+}
+footer {
+    height: 4em;
+    width: 100%;
+    z-index: 999;
+    position:fixed;
+    top:90%;
+    display: flex;
+}
+footer div{
+    flex-direction: column;
+}
+.foot1{
+    background-color: #4ecb8c;
+    height: 100%;
+    width: 70%;
+
+}
+footer a{
+    color: #fff;
+    font-size: 24px;
+    line-height: 3em;
+
+}
+.foot2{
+    background-color: #4ebb7c;
+    height: 100%;
+    width: 14%;
+    text-align: center ;
+}
+.foot3{
+    background-color: red;
+    height: 100%;
+    width: 16%;
+    text-align: center ;
+}
+.list{
+
+}
