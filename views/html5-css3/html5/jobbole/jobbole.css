@@ -1,0 +1,103 @@
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    #leaderboard {
+        display: none;
+    }
+    .nav,header , .navarea, #box1{
+        width: 100%;}
+    #wrapper{
+        width: 90%;
+    }
+    .navarea{
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    #leaderboard {
+        display: none;
+    }
+    aside {
+        display: none;
+    }
+    .nav,header , .navarea, #box1{
+        width: 99.9%;}
+    #wrapper{
+        width: 86%;}
+    .navarea{
+        margin-bottom: 40px;
+    }
+    #logo img{
+        display: block;
+        margin: 0 auto;
+    }
+    .nav a{
+        display: none;
+    }
+    content div{
+        float: none;
+    }
+}
+
+.nav ul li{
+    list-style: none ;
+    float: left;
+    line-height: 10px;
+}
+.nav a{
+    text-decoration: none ;
+    margin-left: 15px;
+    font-size: 12px;
+    color:black;
+}
+ .nav ol li{
+     float:right;
+     list-style: none ;
+     line-height: 10px;
+}
+.nav-left{
+    margin-left: 8%;
+}
+.fouc{
+    height:28px;
+    border-bottom: 1px #eee solid;
+    width: 100%;
+    color:blue;
+}
+content div{
+    display: flex;
+    flex-wrap: wrap;
+    position:relative;
+    float: left;
+}
+content{
+    width: 720px;
+}
+.inport{width:47%;
+    height:400px;
+    border:1px pink solid;
+}
+.center{width:47%;
+    height:400px;
+    border:1px pink solid;
+    margin-left: 5%;
+
+}
+.grid-4 img{
+border: 3px #eee solid;
+}
+.post-title{
+    font-size: 80%;
+}
+.post-meta{
+    position: relative;
+    top:30px;
+    left:-140px;
+    color: darkgray;
+}
+.post-excerpt p{
+    font-size: 13px;
+    line-height: 20px;
+}
+.post-excerpt a{
+   position: relative;
+    left: 220px;
+}

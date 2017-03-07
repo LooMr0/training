@@ -1,0 +1,77 @@
+<div class="container">
+
+            <div class="grid-7 hide-on-480 hide-on-767">
+                <ul id="menu-main-menu" class="menu left sf-js-enabled">
+                    <li class="menu-item">
+                        <a href="http://www.jobbole.com">首页</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="http://top.jobbole.com">资讯</a>
+                    </li>
+                    <li class="menu-item">
+                        <span><a href="http://blog.jobbole.com">文章 <i class="fa fa-angle-double-down"></i></a></span>
+                        <ul class="sub-menu sf-js-enabled" style="display: none; visibility: hidden;">
+                            <li class="menu-item"><a href="http://blog.jobbole.com" style="padding-left: 10px;">全部文章</a></li>
+                            <li class="menu-item"><a href="http://web.jobbole.com" style="padding-left: 10px;">Web前端</a></li>
+                            <li class="menu-item"><a href="http://python.jobbole.com" style="padding-left: 10px;">Python开发</a></li>
+                            <li class="menu-item"><a href="http://www.importnew.com/?utm_source=home-top-nav" style="padding-left: 10px;">Java技术</a></li>
+                            <li class="menu-item"><a href="http://android.jobbole.com" style="padding-left: 10px;">Android应用</a></li>
+                            <li class="menu-item"><a href="http://ios.jobbole.com" style="padding-left: 10px;">iOS应用</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="http://hao.jobbole.com">资源</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="http://group.jobbole.com">小组</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="http://date.jobbole.com"><i class="fa fa-heart-o pinkiconcolor"></i> 相亲</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="grid-5">
+                <ul id="menu-main-menu" class="menu sf-js-enabled">
+                    <li class="menu-item hide-on-768-wider left">
+                        <span><a href="#">频道 <i class="fa fa-angle-double-down"></i></a></span>
+                        <ul class="sub-menu sf-js-enabled" style="display: none; visibility: hidden;">
+                            <li class="menu-item"><a href="http://www.jobbole.com">首页</a></li>
+                            <li class="menu-item"><a href="http://top.jobbole.com">资讯</a></li>
+                            <li class="menu-item"><a href="http://group.jobbole.com">小组</a></li>
+                            <li class="menu-item"><a href="http://date.jobbole.com">相亲 <i class="fa fa-heart-o pinkiconcolor"></i></a></li>
+                            <li class="menu-item"><a href="http://hao.jobbole.com">资源</a></li>
+                            <li class="menu-item"><a href="http://blog.jobbole.com">全部文章</a></li>
+                            <li class="menu-item"><a href="http://web.jobbole.com">前端</a></li>
+                            <li class="menu-item"><a href="http://python.jobbole.com">Python</a></li>
+                            <li class="menu-item"><a href="http://www.importnew.com/">Java</a></li>
+                            <li class="menu-item"><a href="http://android.jobbole.com">安卓</a></li>
+                            <li class="menu-item"><a href="http://ios.jobbole.com">iOS</a></li>
+                        </ul>
+                    </li>
+
+                                            <li class="menu-item"><a href="http://www.jobbole.com/login?redirect=http%3A%2F%2Fwww.jobbole.com%2F"><i class="fa fa-sign-in"></i> 登录</a></li>
+                        <li class="menu-item"><a href="http://www.jobbole.com/register"><i class="fa fa-user-plus"></i> 注册</a></li>
+
+
+                    <li class="menu-item"><a title="帮助" href="http://blog.jobbole.com/87622/"><i class="fa fa-question-circle fa-lg"></i></a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+
+        </div>
+
+
+        .inport{width:45%;
+            height:350px;
+            border:1px pink solid;
+        }
+        .center{width:45%;
+             height:350px;
+             border:1px pink solid;
+            float: right;
+            position: relative;
+            top:-302px;
+        }
