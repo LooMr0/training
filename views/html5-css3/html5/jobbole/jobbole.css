@@ -17,23 +17,28 @@
 
     content {
         width: 520px;
-border: 1px red solid;
+        border: 1px red solid;
     }
-aside{
-    width: 300px;
-}
+
+    aside {
+        width: 300px;
+    }
+
     content .inport {
         width: 250px;
     }
+
     content .inport img {
         width: 230px;
         height: 120px;
         padding-bottom: 40px;
     }
+
     #nav-head {
         width: 99%;
     }
-    content .center .imge2 a{
+
+    content .center .imge2 a {
         line-height: 10px;
     }
 
@@ -54,13 +59,15 @@ aside{
     content .center a {
         font-size: 84%;
     }
+
     content .center .imge {
         width: 40px;
         height: 40px;
     }
-    content .center .imge2{
+
+    content .center .imge2 {
         height: 40px;
-     width: 150px;
+        width: 150px;
     }
 }
 
@@ -72,12 +79,12 @@ aside{
     aside {
         display: none;
     }
-    #nav-head ul{
+
+    #nav-head ul {
         display: none;
     }
 
-
-    content .center{
+    content .center {
         width: 49%;
 
     }
@@ -91,10 +98,10 @@ aside{
     content .center a {
         font-size: 18px;
     }
+
     #nav-head {
         width: 99%;
     }
-
 
     content .inport {
         width: 95%;
@@ -105,14 +112,17 @@ aside{
         height: 200px;
         border: 2px darkgray solid;
     }
+
     content .center .imge {
         width: 70px;
         height: 70px;
     }
-    content .center .imge2{
+
+    content .center .imge2 {
         height: 70px;
         width: 81%;
     }
+
     .nav, header, .navarea, #box1 {
         width: 99.9%;
     }
@@ -167,10 +177,12 @@ content {
     margin-bottom: 20px;
     display: flex;
 }
-.center a{
+
+.center a {
     display: block;
     flex-wrap: nowrap;
 }
+
 .grid-4 img {
     border: 3px #eee solid;
 }
@@ -194,36 +206,147 @@ content {
 .post-excerpt a {
     position: relative;
     left: 220px;
-    top:-20px;
-  color: #2E9FD2;
+    top: -20px;
+    color: #2E9FD2;
 }
 
- .imge {
+.imge {
     width: 70px;
     height: 70px;
     background-image: url("/training/public/images/D.jpg");
     background-size: cover;
 }
-content .center .imge2{
+
+content .center .imge2 {
     height: 70px;
 }
-aside .side-1 p{
+
+aside .side-1 p {
     line-height: 0;
     font-size: 13px;
     color: darkgray;
 }
-aside .side-1{
-    border-bottom: 1px darkgray  solid;
+
+content .center a {
+    color: black;
+}
+
+aside .side-1 {
+    border-bottom: 1px darkgray solid;
     height: 70px;
     margin-bottom: 10px;
 }
+
 aside #side {
-    border: 2px darkgray  solid;
+    border: 2px darkgray solid;
     height: 170px;
     margin-bottom: 20px;
 }
-#news{
+
+#news {
     border: 1px red dashed;
-    height:350px;
+    height: 350px;
     width: 99%;
+}
+
+body {
+    width: 100%;
+    color: #333;
+    position: relative;
+    margin: 0;
+}
+
+#wrapper {
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+
+    height: 1000px;
+    position: relative;
+    top: 60px;
+}
+
+header {
+    width: 960px;
+    height: 100px;
+
+}
+
+#leaderboard {
+    float: right;
+    position: relative;
+    top: -89px;
+}
+
+.navarea {
+    width: 960px;
+    height: 40px;
+    background-color: #eee;
+    font-size: 14px;
+}
+
+.navarea a {
+    text-decoration: none;
+    line-height: 38px;
+    color: black;
+}
+
+#box1 {
+    width: 960px;
+    height: 900px;
+    display: flex;
+    margin: 0 auto;
+}
+
+content {
+    width: 640px;
+    height: 800px;
+
+    flex-direction: column;
+}
+
+aside {
+    width: 320px;
+    height: 800px;
+
+    flex-direction: column;
+}
+
+.nav {
+    width: 100%;
+    height: 40px;
+    background-color: #eee;
+    z-index: 999;
+    margin-bottom: -30px;
+    position: fixed;
+}
+
+#nav-head {
+    margin: 0 auto;
+    width: 960px;
+    height: 100%;
+    border: 1px #eee solid;
+}
+
+.nav ul li {
+    list-style: none;
+    float: left;
+    line-height: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    margin-right: 20px;
+}
+
+.nav a:hover {
+    color: #2E9FD2;
+}
+
+.nav ol li {
+    float: right;
+    list-style: none;
+    line-height: 10px;
 }
