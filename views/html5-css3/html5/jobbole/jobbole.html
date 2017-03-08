@@ -11,20 +11,11 @@
             margin: 0;
         }
 
-        .nav {
-            width: 100%;
-            height: 40px;
-            background-color: #eee;
-            position: fixed;
-            display: flex;
-            z-index: 999;
-        }
-
         #wrapper {
             display: block;
             width: 960px;
             margin: 0 auto;
-            border: 1px red solid;
+
             height: 1000px;
             position: relative;
             top: 60px;
@@ -33,7 +24,7 @@
         header {
             width: 960px;
             height: 100px;
-            border: 1px yellow solid;
+
         }
 
         #leaderboard {
@@ -64,23 +55,59 @@
 
         content {
             width: 640px;
-            height: 900px;
-            border: 1px blue solid;
+            height: 800px;
+
             flex-direction: column;
         }
 
         aside {
             width: 320px;
-            height: 900px;
-            border: 1px palegreen solid;
+            height: 800px;
+
             flex-direction: column;
+        }
+        .nav {
+            width: 100%;
+            height: 40px;
+            background-color: #eee;
+            z-index: 999;
+            margin-bottom: -30px;
+            position: fixed;
+        }
+        #nav-head{
+            margin: 0 auto ;
+            width: 960px;
+            height: 100%;
+            border: 1px #eee solid;
+        }
+        .nav ul li {
+            list-style: none;
+            float: left;
+            line-height: 10px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            font-size: 13px;
+            color: black;
+            margin-right: 20px;
+        }
+        .nav a:hover {
+            color: #2E9FD2;
+        }
+
+        .nav ol li {
+            float:right;
+            list-style: none;
+            line-height: 10px;
         }
     </style>
     <link rel="stylesheet" href="jobbole.css">
 </head>
 <body>
 <div class="nav">
-    <ul class="nav-left">
+    <div id="nav-head">
+    <ul>
         <li><a href="">首页</a></li>
         <li><a href="">咨询</a></li>
         <li><a href="">首页</a></li>
@@ -93,6 +120,7 @@
         <li><a href="">首页</a></li>
         <li><a href="">首页</a></li>
     </ol>
+    </div>
 </div>
 <div id="wrapper" class="container">
     <header>
@@ -118,7 +146,7 @@
                 <div class="grid-4">
                     <div class="post-thumb">
                         <a href="">
-                            <img src="http://jbcdn2.b0.upaiyun.com/2017/03/81f3e002d848ca8c014176e4155c9b4a.jpg" alt=""
+                            <img src="bole.jpg" alt=""
                                  width="300" height="150">
                         </a>
                     </div>
@@ -143,25 +171,128 @@
 
             </div>
             <div class="center">
-
-                <p>
-                <a  href="" >Chrome 全面胜利；微软谷歌宣布提高漏洞奖金</a><br>
-            </p>
-                <p>
-                    <a  href="" >Chrome 全面胜利；微软谷歌宣布提高漏洞奖金</a><br>
-                </p>
-                <p>
-                    <a  href="" >Chrome 全面胜利；微软谷歌宣布提高漏洞奖金</a><br>
-                </p>
+                    <a>
+                        <div class="imge"></div>
+                    </a>
+                <div class="imge2" ><a href=""><p>推荐每个程序员都看的技术演讲</p></a></div><br>
+                <a>
+                    <div class="imge"></div>
+                </a>
+                <div class="imge2" ><a href=""><p>推荐每个程序员都看的技术演讲</p></a></div><br>
+                <a>
+                    <div class="imge"></div>
+                </a>
+                <div class="imge2" ><a href=""><p>推荐每个程序员都看的技术演讲</p></a></div><br>
+                <a>
+                    <div class="imge"></div>
+                </a>
+                <div class="imge2" ><a href=""><p>推荐每个程序员都看的技术演讲</p></a></div>
             </div>
-            <div class="inport">3</div>
-            <div class="center">4</div>
+            <div class="inport">
+                <div class="grid-4">
+                    <div class="post-thumb">
+                        <a href="">
+                            <img src="bole.jpg" alt=""
+                                 width="300" height="150">
+                        </a>
+                    </div>
+                    <div class="post-title">
+                        <a>
+                            <h4>日本 81 岁老太自学编程</h4>
+                        </a>
+                    </div>
+                    <div class="post-meta">
+                        <p>
+                            <a>资讯</a></p>
+                    </div>
+                    <div class="post-excerpt">
+                        <p>日本有一老太太叫若宫雅子(Masako Wakamiya)。这个闲不住的老太太平时也没在浇花散步，或者是和别的同龄老头老太出去乐呵，倒是蒙起头来干起了人们想不到的事儿——学编程！</p>
+                        <p style="float:right;">
+                            <a href="">
+                                阅读全文 » </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="center">
+                <a>
+                    <div class="imge"></div>
+                </a>
+                <div class="imge2" ><a href=""><p>推荐每个程序员都看的技术演讲</p></a></div><br>
+                <a>
+                    <div class="imge"></div>
+                </a>
+                <div class="imge2" ><a href=""><p>推荐每个程序员都看的技术演讲</p></a></div><br>
+                <a>
+                    <div class="imge"></div>
+                </a>
+                <div class="imge2" ><a href=""><p>推荐每个程序员都看的技术演讲</p></a></div><br>
+                <a>
+                    <div class="imge"></div>
+                </a>
+                <div class="imge2" ><a href=""><p>推荐每个程序员都看的技术演讲</p></a></div>
+            </div>
         </content>
         <aside>
+            <div id="side">
+            <div class="side-1"><h4>伯乐在线</h4>
+                <p>做最专业的IT互联网职业社区</p>
+            </div>
+            <div class="side-2">
+                <div class="reg-login-box-icon">
+                    <span><a href="http://www.jobbole.com/login?redirect=http://www.jobbole.com/">登录</a></span>
+                    · <span><a href="http://www.jobbole.com/register">注册</a></span>
+                    · <span> 从以下账号直接登录</span><br>
+                    <style type="text/css">.t_login_text {
+                        margin: 0;
+                        padding: 0;
+                    }
 
+                    .t_login_button {
+                        margin: 0;
+                        padding: 5px 0;
+                    }
+
+                    .t_login_button a {
+                        margin: 0;
+                        padding-right: 3px;
+                        line-height: 25px
+                    }
+
+                    .t_login_button img {
+                        display: inline;
+                        border: none;
+                    }</style><!-- 使用社交帐号登录 来自 WordPress连接微博 插件 --><span class="connectBox1 t_login_button"><a
+                        href="http://www.jobbole.com/wp-content/plugins/wp-connect/login.php?go=weixin&amp;redirect_url=http%3A%2F%2Fwww.jobbole.com%2F"
+                        title="微信" rel="nofollow"><img
+                        src="http://www.jobbole.com/wp-content/plugins/wp-connect/images/login/btn_weixin.png"></a><a
+                        href="http://www.jobbole.com/wp-content/plugins/wp-connect/login.php?go=qzone&amp;redirect_url=http%3A%2F%2Fwww.jobbole.com%2F"
+                        title="QQ" rel="nofollow"><img
+                        src="http://www.jobbole.com/wp-content/plugins/wp-connect/images/login/btn_qzone.png"></a><a
+                        href="http://www.jobbole.com/wp-content/plugins/wp-connect/login.php?go=sina&amp;redirect_url=http%3A%2F%2Fwww.jobbole.com%2F"
+                        title="新浪微博" rel="nofollow"><img
+                        src="http://www.jobbole.com/wp-content/plugins/wp-connect/images/login/btn_sina.png"></a><a
+                        href="http://www.jobbole.com/wp-content/plugins/wp-connect/login.php?go=douban&amp;redirect_url=http%3A%2F%2Fwww.jobbole.com%2F"
+                        title="豆瓣" rel="nofollow"><img
+                        src="http://www.jobbole.com/wp-content/plugins/wp-connect/images/login/btn_douban.png"></a><a
+                        href="http://www.jobbole.com/wp-content/plugins/wp-connect/login.php?go=github&amp;redirect_url=http%3A%2F%2Fwww.jobbole.com%2F"
+                        title="GitHub" rel="nofollow"><img
+                        src="http://www.jobbole.com/wp-content/plugins/wp-connect/images/login/btn_github.png"></a></span>
+                </div>
+            </div>
+            </div>
+            <div class="side-3"><a href=""><img src="T-shirt.jpg" alt=""></a></div>
+            <h5 class="widget-title">
+                <a target="_blank" href="">业界热点资讯</a>
+                <span style="float:right;"><a  href="">更多 »</a></span>
+            </h5>
+            <div id="news" ></div>
         </aside>
 
     </div>
 </div>
+<footer>
+
+</footer>
 </body>
 </html>
