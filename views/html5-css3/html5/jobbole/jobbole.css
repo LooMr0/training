@@ -232,15 +232,14 @@ aside {
     }
     .nav #nav-head {
         width: 80%;
-        border: 1px red solid;
     }
     #wrapper{
         margin: 0 auto;
-        border: 1px yellow solid;
         width: 80%;
     }
 #box1{
-    width: 99%;
+    width: 100%;
+    margin-top: 30px;
 }
 .navarea{
     width: 100%;
@@ -248,6 +247,7 @@ aside {
     content .inport{
         width: 47%;
     }
+
 content .inport .grid-4{
     width: 100%;
 }
@@ -256,7 +256,6 @@ content .inport .grid-4{
  }
     aside {
         width: 280px;
-        border:1px red solid;
     }
     .side-3 img{
         width: 100%;
@@ -268,9 +267,11 @@ content .inport .grid-4{
     .center .imge2 {
        font-size: 13px;
         width: 70%;
-        border: 1px blue solid;
         height:40px;
         margin-top: -15px;
+    }
+    .post-excerpt a{
+        position: relative; left: 150px;
     }
     .center a{
         text-decoration: none ;
@@ -290,7 +291,7 @@ content .inport .grid-4{
     }
     content  .center .imge2 {
         width: 80%;
-        border: 1px blue solid;
+
         height:80px;
         margin-top: -15px;
     }
@@ -310,7 +311,6 @@ content .inport .grid-4{
 
     content .inport {
         width: 99%;
-        border: 1px yellow solid;
     }
 
     content .inport img {
