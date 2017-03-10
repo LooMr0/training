@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 200px;
+            height:200px;
+        }
+        .box1{
+            background-image: url("/training/picture/sprite/C.jpg") ;
+            background-size: cover ;
+            background-origin: content-box ;
+            padding: 40px;
+            outline: 30px solid blue;
+            box-shadow: 0 0 0 60px yellow;
+            margin: 0 auto;
+
+        }
+        .box2{
+            background: linear-gradient(red 30%, green 70% );
+            background-size: 50px 50px;
+            transform: rotate(45deg);
+            margin: 0 auto;
+        }
+        .box3{
+            transform:translate(100px);
+            margin: 0 auto;
+            font-size: 24px;
+            text-align: center ;
+        }
+        .box3:after{
+              content: '';
+              position: absolute;
+              top:0 ;right: 0;bottom: 0;left :0;
+              z-index:-1;
+              background: #ff0000 ;
+            transform: skew(30deg);
+          }
+.box3:hover{
+    background:yellow ;
+    transform: skew(0deg);
+}
+    </style>
+</head>
+<body>
+<div class="box1"></div>
+<div class="box2" ></div>
+<div class="box3" ><a href="">导航</a></div>
+</body>
+</html>

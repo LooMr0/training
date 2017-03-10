@@ -353,9 +353,85 @@ font-weight: bold;
     height:329px;
     width: 100%;
     background-color: #69737B;
+    display: flex;
+  justify-content: center;
+    align-items: flex-end;
+}
+#footnav div{
+    border:1px solid pink;
+    width: 208px;
+    height: 240px;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+#footnav div a{
+    font-size: 18px;
+    color: #F5595B;
+}
+#footnav div p{
+    font-size: 14px;
+    color: #fff;
 }
 footer {
     height: 60px;
     width:100%;
     background-color: #F5595B;
+}
+footer .footbottom{
+    width: 850px;
+    margin: 0 auto;
+   height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .footbottom  .ft1{
+    border: 1px solid yellow;
+    height: 100%;
+    width: 369px;
+    font-size: 14px;
+    color: #fff;
+}
+footer .footbottom  .ft1{
+    border: 1px solid yellow;
+    height: 100%;
+    width: 369px;
+    text-align: center ;
+}
+footer .ftimg1{
+    display: inline-block;
+    height:36px;
+    width: 36px;
+    background: url("/training/picture/sprite/sprite-food.png") no-repeat -401px 0;
+}
+footer .ftimg2{
+    display: inline-block;
+    height:36px;
+    width: 36px;
+    background: url("/training/picture/sprite/sprite-food.png") no-repeat -266px 0;
+}
+footer .ftimg3{
+    display: inline-block;
+    height:36px;
+    width: 36px;
+    background: url("/training/picture/sprite/sprite-food.png") no-repeat -220px 0;
+}
+footer .ftimg4{
+    display: inline-block;
+    height:36px;
+    width: 36px;
+    background: url("/training/picture/sprite/sprite-food.png") no-repeat -446px 0;
+}
+footer .ftimg5{
+    display: inline-block;
+    height:36px;
+    width: 36px;
+    background: url("/training/picture/sprite/sprite-food.png") no-repeat -355px 0;
+}
+footer .ftimg6{
+    display: inline-block;
+    height:36px;
+    width: 36px;
+    background: url("/training/picture/sprite/sprite-food.png") no-repeat -308px 0;
 }
