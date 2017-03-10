@@ -1,5 +1,5 @@
 body{
-    width:100%;
+    width:98.8%;
     height: 3632px;
     border: 1px palegreen solid;
     margin: 0;
@@ -7,11 +7,8 @@ body{
 a{
     text-decoration: none;
 }
-div {
-    border: 1px dashed blue;
-}
+
 header{
-    border: 1px red solid;
     width: 100%;
     height: 50px;
     background-color: #F5595B;
@@ -246,6 +243,8 @@ width: 1142px;
     width: 100%;
     height: 599px;
     background-color: #69737B;
+    display: flex;
+    align-items: center;
 }
 #life .life-box{
     width: 1140px;
@@ -256,29 +255,26 @@ width: 1142px;
     justify-content: space-around;
 }
 #life .life-box .life-box1{
-    border: 1px red solid;
     width:447px;
     height: 396px;
     background: url("/training/public/images/1238.png");
     background-size: cover ;
 }
 #life .life-box .life-box2{
-    border: 1px red solid;
     width:628px;
     height: 396px;
 }
 #life .life-box .life-box2 .life-box2-1{
-    border: 2px red solid;
     width: 194px;
     height: 50px;
     text-align: center ;
+    border-bottom: 2px black solid;
 }
 #life .life-box2-1 a{
     color:#F5595B;
     font-size: 24px;
 }
 #life .box2-2{
-    border: 1px red solid;
     width: 220px;
     height: 112px;
     line-height: 112px;
@@ -299,12 +295,12 @@ width: 1142px;
 }
 #foodli .foodli-1{
     width: 100%;
-    height:192px;
+    height:92px;
 }
 .foodli-1 div{
     width: 193px;
     height:42px;
-    border-bottom: 2px red solid;
+    border-bottom: 2px solid black;
     font-size: 24px;
     margin: 100px auto;
     text-align: center ;
@@ -387,51 +383,45 @@ footer .footbottom{
     align-items: center;
 }
 footer .footbottom  .ft1{
-    border: 1px solid yellow;
     height: 100%;
     width: 369px;
     font-size: 14px;
     color: #fff;
 }
 footer .footbottom  .ft1{
-    border: 1px solid yellow;
     height: 100%;
     width: 369px;
     text-align: center ;
 }
 footer .ftimg1{
-    display: inline-block;
-    height:36px;
-    width: 36px;
     background: url("/training/picture/sprite/sprite-food.png") no-repeat -401px 0;
 }
 footer .ftimg2{
-    display: inline-block;
-    height:36px;
-    width: 36px;
     background: url("/training/picture/sprite/sprite-food.png") no-repeat -266px 0;
 }
 footer .ftimg3{
-    display: inline-block;
-    height:36px;
-    width: 36px;
     background: url("/training/picture/sprite/sprite-food.png") no-repeat -220px 0;
 }
 footer .ftimg4{
-    display: inline-block;
-    height:36px;
-    width: 36px;
     background: url("/training/picture/sprite/sprite-food.png") no-repeat -446px 0;
 }
 footer .ftimg5{
-    display: inline-block;
-    height:36px;
-    width: 36px;
     background: url("/training/picture/sprite/sprite-food.png") no-repeat -355px 0;
 }
-footer .ftimg6{
-    display: inline-block;
-    height:36px;
-    width: 36px;
+footer .ftimg6 {
     background: url("/training/picture/sprite/sprite-food.png") no-repeat -308px 0;
+}
+
+ .ftimg1 ,.ftimg2 , .ftimg3 , .ftimg4 , .ftimg5 , .ftimg6{
+     display: inline-block;
+     height: 36px;
+     width: 36px;
+ }
+#gotop{
+position: fixed;
+    top:500px;
+    left: 89%;
+    width: 24px;
+    height:39px;
+    background: url("/training/picture/sprite/sprite-food.png") no-repeat -598px 0;
 }
