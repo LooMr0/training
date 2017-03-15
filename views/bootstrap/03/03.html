@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/training/public/components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/training/public/font-awesome-4.7.0/css/font-awesome.css">
+    <style>
+        body{
+            display:flex;
+            height: 676px;
+           align-items: center;
+        }
+        form {
+            width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background: whitesmoke ;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content:space-around;
+
+
+        }
+
+        .btn {
+            width: 100%;
+            background: red;
+            font-size: 28px;
+            color: #fff
+        }
+
+        .form-group ,.input-group{
+
+            margin-top: 40px;
+        }
+
+        .form-group input {
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <div class="input-group input-group-lg">
+        <span class="input-group-addon glyphicon glyphicon-user" id="sizing-addon1"></span>
+        <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1">
+    </div>
+
+    <div class="input-group input-group-lg">
+        <span class="input-group-addon glyphicon glyphicon-lock" id="sizing-addon2"></span>
+        <input type="password" class="form-control" placeholder="Password">
+    </div>
+
+    <div class="form-group">
+
+        <button type="submit" class="btn btn-default">Login</button>
+    </div>
+
+    <div class="col-md-12">
+        <div class="col-md-6">
+            <input type="checkbox"> Remenber me
+        </div>
+        <div class="col-md-6" style="text-align: right"><a href="">Fogot password</a>
+        </div>
+</form>
+</body>
+</html>

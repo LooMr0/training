@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/training/public/components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/training/public/components/bootstrap/dist/css/font-awesome.css">
+    <style>
+        .container-fluid div{
+            border:1px red solid;
+        }
+        .col-md-12{
+            background-color: #00b38a;
+            text-align: center ;
+        }
+        .col-xs-6{
+            text-align: center ;
+            margin: 0 auto;
+        }
+        #box{
+            width: 80%;
+            margin: 0 auto;
+            height: 500px;
+        }
+        .col-md-8{
+            float: right;
+            height: 100%;
+        }
+        .col-md-2{
+            height: 100%;
+            width: 30%;
+        }
+        #header{
+            height: 40px;
+        }
+#box2 {
+width: 80%;
+    margin: 0 auto;
+}
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+<div class="row">
+    <div class="col-md-12"  id="header">.col-md-12</div>
+</div>
+<div class="row" id="box">
+    <div class="col-md-2">123
+    </div>
+    <div class="col-md-8">123
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">.col-md-12</div>
+</div>
+</div>
+<div class="row">
+    <div class="col-xs-6 col-sm-4">1
+    </div>
+    <div class="col-xs-6 col-sm-4">2
+    </div>
+    <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-0">3
+    </div>
+    <div class="col-md-12">.col-md-12</div>
+</div>
+<div id="box2">
+<div class="row" >
+    <div class="col-md-1">姓名：</div>
+    <div class="col-md-4"><input type="text"></div>
+</div>
+<div class="row">
+    <div class="col-md-1">电话：</div>
+    <div class="col-md-4"><input type="number"></div>
+</div>
+<div class="row">
+    <div class="col-md-1">email:</div>
+    <div class="col-md-4"><input type="email" placeholder="Email" ></div>
+</div>
+<div class="row">
+    <div class="col-md-1">毕业学校</div>
+    <div class="col-md-4"><input type="text"></div>
+</div>
+<div class="row">
+    <div class="col-md-1">毕业时间</div>
+    <div class="col-md-4"><input type="date" style="width: 41%" ></div>
+</div>
+<div class="row">
+    <div class="col-md-1">照片</div>
+    <div class="col-md-1"><input type="file" ></div>
+</div>
+<div class="row">
+    <div class="col-md-1"> <input type="submit" ></div>
+</div>
+</div>
+<div><i class="fa pull-right">123</i></div>
+</body>
+</html>
