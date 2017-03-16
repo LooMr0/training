@@ -253,9 +253,46 @@ aside {
     list-style: none;
     line-height: 10px;
 }
+.news1 {
+    display: flex;
+    flex-direction: row;
+    height: 66px;
+    align-items: stretch;
+}
+.news1-img{
+    width: 55px;
+    height: 55px;
+    background: url("/training/picture/sprite/sprite1.png") no-repeat -8px 0;
+}
+footer{
+    height:425px;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+.foot-box{
+    width:75%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .foot-box div{
+    width:80%;
+    height:300px;
+}
+.foot-box a{
+    font-size: 13px;
+}
+.foot-box p {
+    font-size: 14px;
+}
 @media only screen and (min-width: 768px) and (max-width: 959px) {
     #leaderboard {
         display: none;
+    }
+    .wrapper2-box{
+        width: 100%;
     }
     body{
         width:100%;
@@ -273,25 +310,22 @@ aside {
         margin: 0 auto;
         width: 80%;
     }
-.box1{
-    width: 100%;
-    margin-top: 30px;
-}
-.navarea{
-    width: 100%;
-}
+    .box1{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .navarea{
+        width: 100%;
+    }
     content .inport{
         width: 47%;
     }
 
-content .inport .grid-4{
-    width: 100%;
-}
+    content .inport .grid-4{
+        width: 100%;
+    }
     content .post-thumb img{
-     width: 100%;
- }
-    aside {
-        width: 280px;
+        width: 100%;
     }
     .side-3 img{
         width: 100%;
@@ -301,7 +335,7 @@ content .inport .grid-4{
         height: 40px;
     }
     .center .imge2 {
-       font-size: 13px;
+        font-size: 13px;
         width: 70%;
         height:40px;
         margin-top: -15px;
@@ -314,21 +348,24 @@ content .inport .grid-4{
     }
 }
 @media only screen and (max-width: 768px) {
+    .box1 aside {
+        display: none;
+    }
     #leaderboard {
         display: none;
     }
-#wrapper2{
-    position: relative;
-    top:780px;
-}
+    #wrapper2{
+        position: relative;
+        top:780px;
+    }
     footer{
         position: relative;
         top:780px;
         width: 99%;
     }
-    aside {
-        display: none;
-    }
+
+
+
 
     #nav-head ul {
         display: none;
@@ -402,38 +439,4 @@ content .inport .grid-4{
     .post-excerpt a{
         position: relative; left: 100px;
     }
-}
-.news1 {
-  display: flex;
-    flex-direction: row;
-    height: 66px;
-    align-items: stretch;
-}
-.news1-img{
-    width: 55px;
-    height: 55px;
-    background: url("/training/picture/sprite/sprite1.png") no-repeat -8px 0;
-}
-footer{
-     height:425px;
-     width: 100%;
-     background-color: #f8f8f8;
- }
-.foot-box{
-    width:75%;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-footer .foot-box div{
-    width:80%;
-    height:300px;
-}
-.foot-box a{
-    font-size: 13px;
-}
-.foot-box p{
-    font-size: 14px;
 }

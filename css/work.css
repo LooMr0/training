@@ -315,8 +315,6 @@ article {
     height:39px;
     background: url("/training/picture/sprite/sprite-food.png") no-repeat -598px 0;
 }
-footer{
-    width: 100%;
-    height: 30px;
-    background-color: #4ecb8c;
+.footer{
+   text-align: center;
 }
