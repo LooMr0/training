@@ -77,7 +77,7 @@ nav p {
     left: 7em;
 }
 
-ul li {
+ ul li {
     list-style: none;
     float: left;
     position: relative;
@@ -93,14 +93,40 @@ ul li {
 }
 
 aside {
-    height: 80em;
+    height: 60em;
     width: 14em;
     position: absolute;
     left: 10em;
     top: 8em;
     background-color: #E8E8E8;
 }
-
+.technical{
+    height:22%;
+    margin-bottom:20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.technical h1{
+    height:15px;
+    margin-left:1.6em;
+    margin-bottom:20px;
+    text-align:left;
+}
+.technical ol{
+    height: 16px;
+    margin-bottom:10px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.technical ol li{
+    height:16px;
+    margin-right:1em;
+    list-style: none ;
+}
+.technical a{
+    color:#555;
+    font-size: 15px;
+}
 article {
     height: 30em;
     width: 48em;
@@ -144,19 +170,9 @@ article input {
 
 aside div {
     position: relative;
-    left: -25%;
     top: 2em;
 }
 
-aside a {
-    color: black;
-    font-size: .8em;
-}
-
-aside a {
-    font-size: 10px;
-    color: gray;
-}
 
 .nav1 {
     display: flex;
@@ -340,4 +356,7 @@ height: 600px;
     color: #555;
     padding: 3px;
     border: 1px solid #dcdcdc;
+}
+#linkbox{
+    height: 150px
 }
