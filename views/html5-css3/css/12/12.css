@@ -1,0 +1,189 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.boxh {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header {
+    background-color: #FFFFFF;
+    width: 1080px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1 {
+    display: inline-block;
+    position: relative;
+    top: -15px;
+}
+
+header small {
+    position: relative;
+    top: 22px;
+    left: -113px;
+}
+
+header a {
+    display: inline-block;
+}
+
+.boxh a {
+    color: #7F7F7F;
+}
+
+.HOME {
+    background-color: #CC0000;
+}
+
+#col {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#co2 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.col-md-6 {
+    padding-left: 0;
+    height: 300px;
+    background-image: url("Q9.jpg ");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.bg1 {
+    background-image: url("Q8.jpg ");
+    line-height: 300px;
+    text-align: left;
+    font-size: 150%;
+    color: white;
+}
+
+.bg2 {
+    line-height: 300px;
+    text-align: right;
+    font-size: 150%;
+    color: white;
+}
+
+.clear {
+    clear: both;
+}
+
+.style {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.style span {
+    font-size: 50px;
+}
+
+.media {
+    width: 45%;
+}
+
+.coption h4 {
+    text-align: center;
+}
+
+.headline {
+    text-align: center;
+}
+
+.headline h2 {
+    color: #3D3D3D;
+}
+
+.list-group {
+    width: 50%;
+    border-right: 1px solid black;
+    float: left;
+    background-color: #F2F0F4;
+}
+
+.COLOR {
+    background-color: lawngreen;
+}
+.row h1, h5 {
+    text-align: center;
+}
+.ending1 {
+    width: 20%;
+}
+.ending {
+    font-size: 100%;
+    width: 20%;
+    float: left;
+    color: white;
+    height: 100%;
+    margin: 0 auto;
+}
+.ending h4 {
+    text-align: left;
+    margin-left: 15%;
+}
+.ending ul li {
+    list-style: none;
+    text-align: left;
+}
+.bg-1 {
+    background-color: #101010;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 10%;
+    float: left;
+}
+.both {
+    clear: both;
+}
+footer {
+    background-color: #222222;
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+}
+.logbase {
+    float: right;
+    width: 35px;
+    height: 35px;
+    margin: 8px 1px 0 20px;
+}
+.more {
+    margin-top: 15%;
+}
+
+.details {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.ending6 {
+    color: #595959;
+}
+
+.color0 {
+    background-color: #CC0000;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    width: 100px;
+}
